@@ -7,6 +7,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import AddPet from './Components/AddPet'
 import ViewPet from './Components/ViewPet'
 import SearchPet from './Components/SearchPet'
+import DeletePet from './Components/DeletePet'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -17,6 +18,7 @@ function App() {
         <Routes>
           <Route path='/' element={<AddPet />} />
           <Route path='/search-pets' element={<SearchPet />} />
+          <Route path='/delete-pets' element={<DeletePet />} />
           <Route path='/view-pets' element={<ViewPet />} />
         </Routes>
       </BrowserRouter>
