@@ -4,6 +4,7 @@ import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import AddPet from './Components/AddPet'
 import ViewPet from './Components/ViewPet'
 
 function App() {
@@ -13,7 +14,8 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path='/' element={<ViewPet />} />
+          <Route path='/' element={<AddPet />} />
+          <Route path='/view-pets' element={<ViewPet />} />
         </Routes>
       </BrowserRouter>
     </>
