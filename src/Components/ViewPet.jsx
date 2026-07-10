@@ -3,7 +3,7 @@ import NavBar from './NavBar'
 import { useState, useEffect } from 'react'
 import axios from 'axios'
 
-const ViewCar = () => {
+const ViewPet = () => {
 
     const [data, changeData] = useState([])
 
@@ -56,4 +56,4 @@ const ViewCar = () => {
     )
 }
 
-export default ViewCar
+export default ViewPet
