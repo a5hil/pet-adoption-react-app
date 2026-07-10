@@ -39,7 +39,7 @@ const ViewPet = () => {
                                                     <p className="card-text"><strong>Species: </strong>{value.species}</p>
                                                     <p className="card-text"><strong>Breed: </strong>{value.breed}</p>
                                                     <p className="card-text"><strong>Age: </strong>{value.age}</p>
-                                                    <p className="card-text"><strong>Gender: </strong>₹{value.gender}</p>
+                                                    <p className="card-text"><strong>Gender: </strong>{value.gender}</p>
                                                     <p className="card-text"><strong>Adoption Fee: </strong>₹{value.adoptionFee}</p>
                                                     <a href="#" className="btn btn-primary">Book now</a>
                                                 </div>
